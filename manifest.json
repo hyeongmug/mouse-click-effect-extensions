@@ -1,0 +1,14 @@
+{
+  "name": "마우스 클릭 효과",
+  "description": "Made by lhm",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["./contentScripts/style.css"],
+      "js": ["./contentScripts/script.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
